@@ -1,2 +1,5 @@
 # sandra-bueno-portfolio
-Portfolio personal creado desde 0
+Portfolio Sandra Bueno Gil
+Presentación personal y muestra de mi proyectos.
+Enlace a la página públicada: https://sandrananana.github.io/practica-portfolio
+HTML, CSS, GitHub
