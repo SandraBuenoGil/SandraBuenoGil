@@ -1,64 +1,69 @@
-
 * {
-     box-sizing: border-box;
-     max-width: 750px;
+    box-sizing: border-box;
+    max-width: 750px;
 }
 
 header {
-background-color: rgb(27, 0, 34);
-color: white;
-padding: 10px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-align: center;
-border-radius: 20px;
-width: 100%;
+    background-color: #041a46;
+    color: white;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    width: 100%;
+  
 }
 
 nav {
-background-color: rgb(85, 49, 94);
-width: 90%;
-margin-left: 5%;
-justify-content: space-around;
-border-radius: 0px 0px 10px 10px;
-display: flex;
-flex-wrap: wrap;
+    background-color: #cf63ab;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-around;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*el padding del nav va en la etiqueta a para que cuando pongs el hover ocupe el color todo el espacio*/
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
 }
 
-nav a:hover { 
-    background-color: rgb(27, 0, 34);
+nav a:hover {
+    background-color: #723c6d;
     justify-content: space-between;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
-    background-color: rgb(189, 169, 194);   
+    background-image: url(imagen/fondomain.jpg);
+    background-size: 80%;
+}
+
+h1 {
+    color: white;
 }
 
 article {
-    border: 2px solid rgb(27, 0, 34);
+    
     border-radius: 20px;
     margin-block: 10px;
     padding: 20px;
     width: 100%;
-    background-color: rgb(219, 219, 219);
-    text-align: left;  
+    background: linear-gradient(45deg, #f17aca, #001236);
+    text-align: left;
 }
 
-.imgporfolio { 
+.imgporfolio {
     display: grid;
     place-items: center;
     position: relative;
 }
 
-.foto { 
+.foto {
     width: 35%;
     display: block;
 }
@@ -68,11 +73,11 @@ article {
     opacity: 0;
     transition: .5s ease;
     bottom: 5px;
-    background-color: rgb(27, 0, 34);
+    background-color: #aa5277;
     color: white;
     padding: 8px;
     width: 25%;
-   
+
 }
 
 .imgporfolio:hover .overlay {
@@ -81,8 +86,34 @@ article {
 
 .fondotexto {
 
-    background-color: white;
+    background-color: #bbadb9;
     border-radius: 10px;
     padding: 1%;
     margin-block: 2%;
+}
+
+
+li a {
+    font-weight: bold;
+    color: rgb(22, 4, 99)
+}
+
+.iconos {
+    width: 4%;
+}
+
+.estilolistaiconos {
+    list-style: none;
+}
+
+.estilolista {
+    list-style: inside;
+}
+
+.iconocontacta {
+    width: 4%;
+}
+
+.github {
+    width: 5%;
 }
