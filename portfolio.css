@@ -16,22 +16,24 @@ width: 100%;
 
 nav {
 background-color: rgb(85, 49, 94);
-padding: 10px;
 width: 90%;
 margin-left: 5%;
 justify-content: space-around;
 border-radius: 0px 0px 10px 10px;
 display: flex;
+flex-wrap: wrap;
 }
 
+/*el padding del nav va en la etiqueta a para que cuando pongs el hover ocupe el color todo el espacio*/
 nav a{
     color: white;
     text-decoration: none;
+    padding: 10px;
 }
 
 nav a:hover { 
     background-color: rgb(27, 0, 34);
-    padding-block: 10px;
+    justify-content: space-between;
 }
 
 body {
@@ -47,7 +49,7 @@ article {
     padding: 20px;
     width: 100%;
     background-color: rgb(219, 219, 219);
-    text-align: justify;  
+    text-align: left;  
 }
 
 .imgporfolio { 
@@ -75,4 +77,12 @@ article {
 
 .imgporfolio:hover .overlay {
     opacity: 1;
+}
+
+.fondotexto {
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    margin-block: 2%;
 }
